@@ -24,7 +24,7 @@ const Navbar = ({setShowLogin}) => {
             <a href='#explore-category' onClick={()=>setMenu("men")} className={menu === "men"?"active":""}>men</a>
             <a href='#explore-category' onClick={()=>setMenu("women")} className={menu === "women"?"active":""}>women</a>
             <a href='#explore-category' onClick={()=>setMenu("kid")} className={menu === "kid"?"active":""}>kid</a>
-            <Link>Admin</Link>
+            <Link to="https://ecommerce-app-admin.onrender.com">Admin</Link>
         </ul>
         <div className="navbar-right">
             <img src={assets.search_icon} alt="" />
