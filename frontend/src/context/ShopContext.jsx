@@ -8,7 +8,7 @@ const ShopContextProvider = (props)=>{
     const [cartItems, setCartItems] = useState({})
     
 
-    const url = "http://localhost:4000";
+    const url = "https://ecommerce-app-backend-99ad.onrender.com";
 
     const [token,setToken] = useState("")
 
